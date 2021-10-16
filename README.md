@@ -38,6 +38,7 @@ UNC Boot Camp Submission: 🗂️ [Github Repository](https://github.com/DionneN
 
 ### ResponseUI Solution - Desktop, Tablet & Mobile Views
 Starting Screen: <img src= "./images/FitnessTrackerLandingPage.png">
+First Time Login Screen: <img src= "./images/FirstTimeLogin.png">
 Drop Down Options: <img src= "./images/DropDown.png">
 Resistance Wizard Screen: <img src= "./images/Type-Cardio.png">
 Cardio Wizard Screen: <img src= "./images/Type-Cardio.png">
