@@ -1,10 +1,10 @@
 // dependencies import
 const express = require("express");
+const mongoose = require("mongoose");
 const app = express();
 
 // https://expressjs.com/en/resources/middleware/morgan.html 
 const morgan = require("morgan");
-const mongoose = require("mongoose");
 
 // port definition
 const PORT = process.env.PORT || 3000;
@@ -25,7 +25,7 @@ app.use(express.static("public"));
 app.use(morgan("dev"));
 
 // custom routes import
-(require("./routes/view-routes.js"))(app);
+(require("./routes/fitness-routes.js"))(app);
 (require("./routes/api-routes"))(app);
 
 // app is listening on port #

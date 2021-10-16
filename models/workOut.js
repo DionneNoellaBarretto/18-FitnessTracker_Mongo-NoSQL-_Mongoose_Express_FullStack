@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const workOutS = new Schema(
+const workOut = new Schema(
     // https://mongoosejs.com/docs/validation.html 
     {
         day: {
@@ -17,13 +17,13 @@ const workOutS = new Schema(
                 name: {
                     type: String,
                     trim: true,
-                    required: "Please enter a unique exercise name",
+                    required: "Please enter an exercise name",
                     // unique: true
                 },
                 duration: {
                     type: Number,
                     required: "Please enter your exercise duration in minutes (0-60)",
-                    // maximum: [60, "Please enter a number between 0 and 60 for your exercise duration in minutes"]
+                    maximum: [60, "Please enter a number between 0 and 60 for your exercise duration in minutes"]
                 },
                 sets: {
                     type: Number
@@ -49,11 +49,11 @@ const workOutS = new Schema(
     }
 );
 // dynamically created property 
-workOutS.virtual("totalDuration").get(function () {
+workOut.virtual("totalDuration").get(function () {
     // "reduce" exercises array to a sum of exercise durations
     return this.exercises.reduce((total, exercise) => {
         return total + exercise.duration;
     }, 0);
 });
-const Workout = mongoose.model("Workout", workOutS);
+const Workout = mongoose.model("Workout", workOut);
 module.exports = Workout;

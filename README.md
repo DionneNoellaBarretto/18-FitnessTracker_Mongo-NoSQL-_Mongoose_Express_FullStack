@@ -31,13 +31,16 @@ WHEN the user loads the page, they should be GIVEN the option to create a new wo
 
 --------------------------------
 # DNB's SOLUTION: 
-UNC Boot Camp Submission: 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/05-Hourly_Workday_Scheduler-using_jQuery) | 📄[Github Page](https://dionnenoellabarretto.github.io/05-Hourly_Workday_Scheduler-using_jQuery/)
+UNC Boot Camp Submission: 🗂️ [Github Repository](https://github.com/DionneNoellaBarretto/18-FitnessTracker_Mongo-NoSQL-_Mongoose_Express_FullStack) | 📄[Heroku Page]()
 
 --------------------------------
 
 ### ResponseUI Solution - Desktop, Tablet & Mobile Views
-Starting Screen: <img src= "./Assets/images/StarterScreen.png">
-
+Starting Screen: <img src= "./images/FitnessTrackerLandingPage.png">
+Drop Down Options: <img src= "./images/DropDown.png">
+Resistance Wizard Screen: <img src= "./images/Type-Cardio.png">
+Cardio Wizard Screen: <img src= "./images/Type-Cardio.png">
+Workout Dashboard Screen: <img src= "./images/WorkoutDashbaord.png">
 
 ## Grading Requirements
 
