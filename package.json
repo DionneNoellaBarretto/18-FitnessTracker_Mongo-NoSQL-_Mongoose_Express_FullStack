@@ -1,0 +1,25 @@
+{
+  "name": "mongoose-fitness-tracker",
+  "version": "1.0.0",
+  "description": "Homework 18",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DionneNoellaBarretto/18-FitnessTracker_Mongo-NoSQL-_Mongoose_Express_FullStack"
+  },
+  "author": "DionneNoellaBarretto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  }
+}
