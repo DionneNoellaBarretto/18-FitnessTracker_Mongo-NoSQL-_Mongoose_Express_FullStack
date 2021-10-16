@@ -18,12 +18,12 @@ const workOutSchema = new Schema(
                     type: String,
                     trim: true,
                     required: "Please enter a unique exercise name",
-                    unique: true
+                    // unique: true
                 },
                 duration: {
                     type: Number,
                     required: "Please enter your exercise duration in minutes (0-60)",
-                    maximum: [60, "Please enter a number between 0 and 60 for your exercise duration in minutes"]
+                    // maximum: [60, "Please enter a number between 0 and 60 for your exercise duration in minutes"]
                 },
                 sets: {
                     type: Number

@@ -20,8 +20,4 @@ module.exports = function(app) {
         console.log("Exercise '/exercise' route")
         res.sendFile(path.join(__dirname, "../public/exercise.html"));
     });
-
-    
-
-
 }
