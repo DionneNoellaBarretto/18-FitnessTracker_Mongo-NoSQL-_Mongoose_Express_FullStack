@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
-const workOutSchema = new Schema(
+const workOutS = new Schema(
     // https://mongoosejs.com/docs/validation.html 
     {
         day: {
