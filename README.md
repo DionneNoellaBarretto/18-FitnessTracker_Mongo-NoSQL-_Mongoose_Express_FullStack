@@ -37,12 +37,12 @@ UNC Boot Camp Submission: 🗂️ [Github Repository](https://github.com/DionneN
 --------------------------------
 
 ### ResponseUI Solution - Desktop, Tablet & Mobile Views
-Starting Screen: <img src= "./images/FitnessTrackerLandingPage.png">
-First Time Login Screen: <img src= "./images/FirstTimeLogin.png">
-Drop Down Options: <img src= "./images/DropDown.png">
-Resistance Wizard Screen: <img src= "./images/Type-Cardio.png">
-Cardio Wizard Screen: <img src= "./images/Type-Cardio.png">
-Workout Dashboard Screen: <img src= "./images/WorkoutDashbaord.png">
+Starting Screen: <img src= "./images/FitnessTrackerLandingPage.png"> <br>
+First Time Login Screen: <img src= "./images/FirstTimeLogin.png"> <br>
+Drop Down Options: <img src= "./images/DropDown.png"> <br>
+Resistance Wizard Screen: <img src= "./images/Type-Cardio.png"> <br>
+Cardio Wizard Screen: <img src= "./images/Type-Cardio.png"> <br>
+Workout Dashboard Screen: <img src= "./images/WorkoutDashbaord.png"> <br>
 
 ## Grading Requirements
 
